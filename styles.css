@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 2000px;
+}
+
+header {
+    height: 46px;
+    max-height: 46px;
+    background-color: #424242;
+    align-content: left;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header .left i {
+    color: #999999;
+    padding-left: 15px;
+}
+
+header .left i:hover {    
+    color: #f0423c;
+    cursor: pointer;
+}
+
+header .left {
+    padding-left: 0px;
+}
+
+header .right {
+    font-size: 14px;
+    color: #999999;
+    font-family: "Lato";
+}
+
+header .right .far {
+    font-size: 14px;
+    color: #999999;
+}
+
+header .right span i {
+    padding: 10px;
+}
+
+header .right span:nth-child(1) {
+    border-right: 2px solid #999999;
+    padding-right: 10px;
+}
+
+.content {
+    margin: auto;
+    height: 738px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: linear-gradient(rgba(235, 235, 235, 0.9),rgba(235, 235, 235, 0.9)), url("images/background.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.content-container {
+    padding: 200px;
+}
+
+.logo-top {
+    margin-top: 30px;
+    text-indent: 50px;
+    background: url("images/newLogo.png") no-repeat;
+    width: 270px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.logo-top img {
+    position: relative;
+    float: right;
+}
+
+.text-red {
+    color: #f0423c;
+}
+
+.logo-center {
+    margin-left: -3%;
+    height: 67px;
+    width: 80px;
+}
+
+.line {
+    margin: auto;
+    width: 30px;
+    border-bottom: 3px solid #f0423c;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    width: 100%;
+}
+
+.nav-menu li {
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.nav-menu .fasspan {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Font Awesome";
+}
+
+img {
+    position: inherit;
+    left: 50%;
+}
+
+.header-title1 {     
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 40px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #424242;
+    font-weight: 700;
+    font-family: "Exo";
+}
+
+.header-button {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    background-color: #f0423c;
+    padding: 25px 50px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+}
+
+.header-title2 {
+    padding-top: 50px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #413f3f;
+    font-family: "Font Awesome";
+}
+
+.header-title3 {
+    margin-top: 75px;
+}
+
+.far {   
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #f0423c;
+    font-family: "Font Awesome";
+} 
+
+.header-title2 {
+    padding-top: 50px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #413f3f;
+    font-family: "Font Awesome";
+}
+
+body {
+    text-align: center;
+    padding-top: 0px;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 50px;
+    color: #424242;
+    font-family:  "Exo";;
+}
+
+.container {
+    width: 804px;
+    margin: 68px auto 0;
+    display: table;
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 20px 0;
+}
+
+.column{
+
+    display: table-cell;
+    padding: 20px;
+    width: 33.33%;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 30px #ffffff;
+}
+
+.row:nth-child(1)  .column:nth-child(1),
+.row:nth-child(1) .column:nth-child(3),
+.row:nth-child(2) .column:nth-child(2) {
+    background-color: #FFF;
+}
+
+.row:nth-child(1) .column:nth-child(2),
+.row:nth-child(2) .column:nth-child(1),
+.row:nth-child(2) .column:nth-child(3) {
+    background-color: #f7f7f7;
+}
+
+.body-button {
+    text-decoration: none;
+    background-color: #f0423c;
+    padding: 20px 37px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+}
